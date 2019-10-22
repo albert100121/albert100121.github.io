@@ -2078,6 +2078,11 @@
 		font-size: 20px;
 		text-indent: 1em;
 	}
+	.project_cap.Coming{
+		font-size: 24px;
+		font-style: bold;
+		text-indent: 1em;
+	}
 	figcaption{
 		/* margin-top: auto;
 		margin-bottom: auto;
