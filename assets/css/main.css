@@ -2084,7 +2084,7 @@
 	}
 	.project_cap.Coming{
 		/* font-size: 24px; */
-		font-size: 1.35em;
+		font-size: 1.15em;
 		font-style: bold;
 		text-indent: 1em;
 	}
@@ -2099,7 +2099,7 @@
 			font-size:1.15em
 		}
 		.project_cap.Coming{
-			font-size:1.35em
+			font-size:1.15em
 		}
 	}
 	@media screen and (max-width: 980px) {
@@ -2113,7 +2113,7 @@
 			font-size: 0.95em
 		}
 		.project_cap.Coming{
-			font-size: 1.15em
+			font-size: 0.95em
 		}
 	}
 	@media screen and (max-width: 480px) {
@@ -2127,7 +2127,7 @@
 			font-size: 0.65em
 		}
 		.project_cap.Coming{
-			font-size: 0.75em
+			font-size: 0.65em
 		}
 	}
 	figcaption{
