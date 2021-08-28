@@ -1411,7 +1411,7 @@
 	body {
 		background-color: #000;
 		/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/coffee_shop.jpg"); */
-		background-image:  url("../../images/coffee_shop5.jpg");
+		background-image:  url("../../images/css/coffee_shop5.jpg");
 		/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/bg1.jpg"); */
 		/* background-image: url("../../images/bg1.jpg"); */
 		background-size: cover;
@@ -1496,7 +1496,7 @@
 		-webkit-transition-delay: 0.75s;
 		-ms-transition-delay: 0.75s;
 		transition-delay: 0.75s;
-		background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.jpg");
+		background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/css/overlay.jpg");
 		/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"); */
 		background-size: auto, 256px 256px;
 		background-position: center, center;
