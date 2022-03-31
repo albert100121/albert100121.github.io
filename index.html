@@ -1,286 +1,540 @@
-<!DOCTYPE HTML>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151940545-2"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
 
-		gtag('config', 'UA-151940545-2');
-		</script>
+<head>
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+  /* Design Credits: Jon Barron and Abhishek Kar and Saurabh Gupta*/
+  a {
+  color: #1772d0;
+  text-decoration:none;
+  }
+  a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+  }
+  body,td,th {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400
+  }
+  /* body {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* background */
+    background-image: url("../../images/css/coffee_shop5.jpg");
+    background-size: cover;
+    /* background-color: rgba(255,255,255,0.7); */
+    /* opacity: 0.6; */
+    /* background-color: rgba(255, 255, 255, .9);
+    background-blend-mode: multiply; */
+    z-index: -1;
+    opacity: .5;
+  }
+  td,th {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  } */
+  heading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 1000
+  }
+  strong {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 800
+  }
+  strongred {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    color: 'red' ;
+    font-size: 16px
+  }
+  sectionheading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 600
+  }
+  pageheading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 400
+  }
+  </style>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <script type="text/javascript" src="assets/js/hidebib.js"></script>
+  <title>Ning-Hsu Wang</title>
+  <meta name="Ning-Hsu Wang's Homepage" http-equiv="Content-Type" content="Ning-Hsu Wang's Homepage">
+  <meta name="author" content="Ning-Hsu Wang" />
+  <meta name="keywords" content="Ning-Hsu Wang, Albert, Albert Wang, deep learning, internship, National Tsing Hua University, NTHU, nthu, 360, 360SD-Net"/>
+  <meta name="description" content="Ning-Hsu Wang Personal Webpage" />
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
+  <!-- Start : Google Analytics Code -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151940545-2"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-		<title>Ning-Hsu Wang</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="author" content="Ning-Hsu Wang" />
-		<meta name="keywords" content="Ning-Hsu Wang, Albert, Albert Wang, deep learning, internship, National Tsing Hua University, NTHU, nthu, 360, 360SD-Net"/>
-		<meta name="description" content="Ning-Hsu Wang Personal Webpage" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/png" href="images/logo.png">
-		<!-- Fix and check if the code works for preview:
-		https://medium.com/@Scotty_Lingner/linkedin-link-preview-images-not-showing-up-try-this-3cd80043b5bb -->
-		<meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="Ning-Hsu Wang" />
-		<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://albert100121.github.io/images/preview_image.jpg" />
-		<meta prefix="og: http://ogp.me/ns#" property="og:image:type" content="image/jpg" />
-		<meta prefix="og: http://ogp.me/ns#" property="og:description" content="Graduate research student at VSLab, NTHU." />
-		<!-- The sample from linkedin 
-		LinkedIn requires the prefix on that OG tag. Facebook doesn’t require it, but it does no harm. So, leave it, mmkay? -->
-		<meta prefix="og: http://ogp.me/ns#" property="og:type" content="Website" />
-		<meta prefix="og: http://ogp.me/ns#" property="og:title" content="Albert Wang" />
-		<!-- <meta prefix="og: http://ogp.me/ns#" property="og:description" content="The description of your page." /> -->
-		<!-- <meta prefix="og: http://ogp.me/ns#" property="og:image" content="The image url" /> -->
-		<meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://albert100121.github.io" />
-	</head>
-	<body>
+  gtag('config', 'UA-151940545-2');
+  </script>
+  <!-- End : Google Analytics Code -->
+  <!-- Scramble Script by Jeff Donahue -->
+  <script src="assets/js/scramble.js"></script>
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Header -->
-					<header id="header">
-						<span class="avatar"><img src="images/albertwang.jpg" alt="" /></span>
-						<h1><strong>Ning-Hsu (Albert) Wang</strong></h1>
-						<p style="text-align:justify;margin-left: 10%;margin-right: 10%;"><strong>
-							I am a Machine Learning Engineer at <a href="https://ailabs.tw">Taiwan AILabs</a> focusing on Computer Vision and Machine Learning.
-							Previously, I was a Computer Vision research intern at <a href="https://www.mediatek.tw/">MediaTek, Taiwan</a>, working on Depth Estimation, All-in-Focus Reconstruction, and Computational Photography.
-							I received my Master's degree in 
-							<a href="http://web.ee.nthu.edu.tw/bin/home.php?Lang=en">Electrical Engineering</a> 
-							from 
-							<a href="http://nthu-en.web.nthu.edu.tw/bin/home.php">National Tsing Hua Unviersity (NTHU)</a>
-							advised by Prof. 
-							<a href="http://aliensunmin.github.io/">Min Sun</a> and my Bachelor's degree in Mechanical Engineering from National Chiao Tung University.
-							During my graduate research, I worked with 
-							<a href="https://walonchiu.github.io/">Prof. Wei-Chen Chiu</a>
-							and
-							<a href="https://sites.google.com/site/yihsuantsai/">Dr. Yi-Hsuan Tsai</a> 
-							on 360<span>°</span> Stereo Depth Project.
-							Afterward, I worked with 
-							<a href="https://htchen.github.io/">Prof. Hwann-Tzong Chen</a> 
-							on Planar Reconstruction.
-							My research interest lies in Deep Learning and its applications, especially focusing on 360<span>°</span> VR/AR application and Robotics Perceptions.<br>
-							My personal hobbies include listening to music, restaurant/cafe/bar hopping and badminton.<br>
-							<span style="font-weight: bold; font-size: 1.15em">I'm actively looking for PhD positions focusing on Computer Vision / Machine Learning / Robotics for Fall 2022. <a href="images/personal_info/Ning_Hsu_Wang_Resume_PhD_long.pdf">[CV]</a></span>
-							</strong>
-						</p>
-						<h1 id="main">
-							<!-- Sections -->
-							<ul class="icons">
-								<li><a href="#News">News</li>
-								<li><a href="#edu">Education</li>
-								<li><a href="#exp">Experience</li>
-								<li><a href="#publication">Publication</li>
-								<li><a href="#project">Project</li>
-							</ul>
-						</h1>
-						<ul class="icons">
-							<li><a href="mailto:albert100121@gapp.nthu.edu.tw" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-							<li><a href="https://github.com/albert100121" class="icon style2 fa-github"><span class="label">Github</span></a></li>
-							<li><a href="images/personal_info/Ning_Hsu_Wang_Resume_PhD_long.pdf" class="icon style2 fa-file-text-o"><span class="label">CV</span></a></li>
-							<li><a href="http://www.linkedin.com/in/ning-hsu-albert-wang" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://twitter.com/Albert_NH_Wang" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://scholar.google.com/citations?user=8kYY700AAAAJ&hl=zh-TW"class="icon style2 fa-google"><span class="label">Google Scholar</span></a></li>
-						</ul>
-					</header>
+<body>
+<!-- <table width="840" border="0" align="center" border="0" cellspacing="0" cellpadding="20"> -->
+<table width="960" border="0" align="center" border="0" cellspacing="0" cellpadding="20">
+  <tr><td>
 
-					<div id="main">
-						<article id="News">
-							<h2><b>News</b></h2>
-							<li style="font-weight: bold; margin-left: 5%; font-size: 1em">[07/2021] <strong>One ICCV 2021 paper accepted!!!</strong></li>
-							<li style="font-weight: bold; margin-left: 5%; font-size: 1em">[03/2021] One CVPR 2021 paper accepted as Oral Paper!!!</li>
-							<li style="font-weight: bold; margin-left: 5%; font-size: 1em">[02/2021] Finish my internship at MediaTek.</li>
-							<li style="font-weight: bold; margin-left: 5%; font-size: 1em">[10/2020] Finish my military training.</li>
-							<li style="font-weight: bold; margin-left: 5%; font-size: 1em">[08/2020] Receive my M.Sc. degree from National Tsing Hua University.</li>
-							<li style="font-weight: bold; margin-left: 5%; font-size: 1em">[07/2020] Selected as the honorary member of the <a href="http://www.phitauphi.org.tw/"><strong>Phi Tau Phi Scholastic Honor Society of the Republic of China</strong></a>.</li>
-							<li style="font-weight: bold; margin-left: 5%; font-size: 1em">[02/2020] Join <a href="https://www.mediatek.com">MediaTek</a> as a Computer Vision Research Intern.</li>
-							<li style="font-weight: bold; margin-left: 5%; font-size: 1em">[01/2020] One <a href="https://www.icra2020.org/">ICRA 2020</a> paper accepted!!!</li>
-							<li style="font-weight: bold; margin-left: 5%; font-size: 1em">[08/2019] One <a href="http://iccv2019.thecvf.com/">ICCV19</a> <a href="https://360pi.github.io/iccv19/index.html">360 Perception and Interaction</a> paper accepted!!!</li>
-						</article><br>
-						<article id="edu">
-							<h2>Education</h2>
-							<div style="font-weight: bold; margin-left: 5%">National Tsing-Hua University<span style="font-weight: normal;">, Hsinchu, Taiwan</span><span style="float:right;">2018.1 - 2020.7</span></div>
-							<ul style="padding-left: 5%; margin-left: 5%">
-								<li>M.Sc. Electrical Engineering</li>
-								<li>Vision Science Lab (VSLAB)</li>
-								<li>Advised by Prof. <a href="http://aliensunmin.github.io/">Min Sun</a></li>
-								<li>Concentrate on Computer Vision and Deep Learning researches</li>
-							</ul>
-							<div style="font-weight: bold; margin-left: 5%">National Chiao-Tung University<span style="font-weight: normal;">, Hsinchu, Taiwan</span><span style="float:right;">2013.9 - 2017.6</span></div>
-							<ul style="padding-left: 5%; margin-left: 5%">
-								<li>B.Sc. Mechanical Engineering</li>
-								<li>Concentrate on Autonomous Control and Robotics</li>
-							</ul>
-						</article>
-						<article id="exp">
-								<h2>Experiences</h2>
-								<div style="font-weight: bold; margin-left: 5%">Machine Learning Engineer, Taiwan AILabs
-									<span style="float: right; margin-left: 5%">2021.8 - Present</span></div>
-									<ul style="padding-left: 5%; margin-left: 5%">
-										<li>In charge of the Face Detection and De-identification project and improved the inference speed by 400% (5 times faster).</li>
-										<li>Implemented and modified optical flow SOTA algorithms (Raft) and EquiConv to adapt to 360<span>°</span> images for the need of 4 projects and 80% of the members of the team.</li>
-										<li>Initiated and worked on light-source estimation and object insertion for better user experi- ence on Meta-verse related product environments.</li>
-									</ul>	
-								<div style="font-weight: bold; margin-left: 5%">Research Intern, MediaTek
-									<span style="float: right; margin-left: 5%">2020.2 - 2021.2</span></div>
-									<ul style="padding-left: 5%; margin-left: 5%">
-										<li>Worked on research topics related to stereo matching and depth estimation on images with blur/bokeh effects (shallow DoF) <b>(ICCV 2021)</b>.</li>
-										<li>Presented a new dataset for model training on blurred images.</li>
-										<li>Proposed a new unsupervised training technique on depth estimation.</li>
-									</ul>	
-								<div style="font-weight: bold; margin-left: 5%">Graduate Research Assistant, VSLAB<span style="font-weight: normal;"> - advised by Prof. <a href="http://aliensunmin.github.io/">Min Sun</a></span>
-									<span style="float: right; margin-left: 5%">2018.1 - 2020.7</span></div>
-								<ul style="padding-left: 5%; margin-left: 5%">
-									<li>Led the 360<span>°</span> Stereo Project, advised by Prof. Min Sun, Prof. Wei-Chen Chiu and Dr. Yi-Hsuan Tsai <b>(ICRA 2020)</b>.</li>
-									<li>Presented two 360<span>°</span> stereo datasets as well as a novel DNN targeting depth estimation on 360<span>°</span> stereo images.</li>
-									<li>Worked on Planar Reconstruction, co-advised by Prof. Hwann-Tzong Chen <b>(CVPR 2021 Oral)</b>.</li>
-									<li>Proposed a new benchmark and a new method leveraging the phenomenon of indoor human structures and 360<span>°</span> images for indoor panorama planar reconstruction.</li>
-								</ul>			
-								<div style="font-weight: bold; margin-left: 5%">Technical Lead, <a href="https://www.entrepreneurship.net.tw/">Young Entrepreneurs of the Future</a>, <a href="https://www.epoch.org.tw/">Epoch Foundation</a>
-									<span style="float: right;">2018.1 - 2018.07</span></div>
-									<ul style="padding-left: 5%; margin-left: 5%">
-										<li>Led a technical team in a nationwide startup competition and won Second Place in the first stage of the two stages.</li>
-										<li>Designed an electronic mask-like device with active noise canceling for both meeting and gaming.</li>
-									</ul>
-								<div style="font-weight: bold; margin-left: 5%">On-site Engineer, Atos
-									<span style="float: right;">2017.08</span></div>
-									<ul style="padding-left: 5%; margin-left: 5%">
-										<li>29th Summer Universiade Internet System Maintenance</li>
-									</ul>
-								<div style="font-weight: bold; margin-left: 5%">Contestant, Tokyo Electron Limited Robot Combat, Tokyo Electron
-									<span style="float: right;">2017</span></div>
-									<ul style="padding-left: 5%; margin-left: 5%">
-										<li>Robotic Construction/Combat Competition</li>
-									</ul>
-						</article>
-						<article id="publication">
-							<h2>Publications</h2>
-							<a href="https://albert100121.github.io/AiFDepthNet/">
-							<figure>
-								<img class="project" src="images/publication/ICCV2021/arch.jpg">
-								<div style="text-indent:0em; text-align:justify; font-weight: bold; margin-left: 23%" class="project_cap" >Bridging Unsupervised and Supervised Depth from Focus via All-in-Focus Supervision</div></a>
-								<div class="project_cap author" style="text-indent:0em; text-align:justify; margin-left: 23%"><a href="http://albert100121.github.io"><b>Ning-Hsu Wang</b></a>, 
-									<a href="https://www.linkedin.com/in/ren-wang-61b273160/?originalSubdomain=tw">Ren Wang</a>, 
-									<a href="http://www.cmlab.csie.ntu.edu.tw/~yulunliu/">Yu-Lun Liu</a>, 
-									<a href="https://www.linkedin.com/in/yu-hao-huang-72821060/?originalSubdomain=tw">Yu-Hao Huang</a>, 
-									<a href="https://scholar.google.com/citations?user=0O9rukQAAAAJ&hl=en">Yu-Lin Chang</a>, 
-									<a href="https://tw.linkedin.com/in/chia-ping-chen-81674078">Chia-Ping Chen</a>, 
-									<a href="https://corp.mediatek.com/investor-relations/corporate-governance/corporate-management">Kevin Jou</a>
-								</div>
-								<div class="project_cap submission" style="text-indent:0em; text-align:justify; margin-left: 23%">
-									<a href="http://iccv2021.thecvf.com/home">
-										IEEE/CVF International Conference on Computer Vision (ICCV 2021)
-									</a>
-								</div>
-								<br>
-								<div class="project_cap Coming" style="text-indent:0em; text-align:justify; margin-left: 23%">
-									&nbsp;&nbsp;
-									<a href="https://arxiv.org/abs/2108.10843" style="border-width:2px;border-style:solid;border-color:rgb(255, 255, 255);padding:4px;">
-										<strong>Preprint</strong>
-									</a>
-									&nbsp;&nbsp;
-									<a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Bridging_Unsupervised_and_Supervised_Depth_From_Focus_via_All-in-Focus_Supervision_ICCV_2021_paper.pdf" style="border-width:2px;border-style:solid;border-color:rgb(255, 255, 255);padding:4px;">
-										<strong>Openaccess</strong>
-									</a>
-									&nbsp;&nbsp;
-									<a href="images/publication/ICCV2021/01939-supp.pdf" style="border-width:2px;border-style:solid;border-color:rgb(255, 255, 255);padding:4px;">
-										<strong>Supplementary</strong>
-									</a>
-									&nbsp;&nbsp;
-									<a href="https://github.com/albert100121/AiFDepthNet/" style="border-width:2px;border-style:solid;border-color:rgb(255, 255, 255);padding:4px;">
-										<strong>Code</strong>
-									</a>
-									&nbsp;&nbsp;
-									<a href="https://albert100121.github.io/AiFDepthNet" style="border-width:2px;border-style:solid;border-color:rgb(255, 255, 255);padding:4px;">
-										<strong>Project Page</strong>
-									</a>
-								</div>
-							</figure><br><br>
-							<a href="https://openaccess.thecvf.com/content/CVPR2021/html/Sun_Indoor_Panorama_Planar_3D_Reconstruction_via_Divide_and_Conquer_CVPR_2021_paper.html">
-							<figure>
-								<img class="project" src="images/publication/CVPR2020/model.jpg">
-								<div style="text-indent:0em; text-align:justify; font-weight: bold; margin-left: 23%" class="project_cap" >Indoor Panorama Planar 3D Reconstruction via Divide and Conquer</div></a>
-								<div class="project_cap author" style="text-indent:0em; text-align:justify; margin-left: 23%"><a href="https://sunset1995.github.io">Cheng Sun</a>, <a href="https://chiweihsiao.github.io">Chi-Wei Hsiao</a>, <a href="http://albert100121.github.io"><b>Ning-Hsu Wang</b></a>, <a href="http://aliensunmin.github.io/">Min Sun</a>, Hwann-Tzong Chen</div>
-								<div class="project_cap submission" style="text-indent:0em; text-align:justify; margin-left: 23%">
-									<a href="http://cvpr2021.thecvf.com">IEEE/CVF Conference on Computer Vision and Pattern Recognition 2021 Oral (CVPR 2021 Oral)</a>
-								</div>
-								<br>
-								<div class="project_cap Coming" style="text-indent:0em; text-align:justify; margin-left: 23%">
-									&nbsp;&nbsp;
-									<a href="https://arxiv.org/abs/2106.14166" style="border-width:2px;border-style:solid;border-color:rgb(255, 255, 255);padding:4px;">
-										<strong>Preprint</strong>
-									</a>
-									&nbsp;&nbsp;
-									<a href="https://openaccess.thecvf.com/content/CVPR2021/html/Sun_Indoor_Panorama_Planar_3D_Reconstruction_via_Divide_and_Conquer_CVPR_2021_paper.html" style="border-width:2px;border-style:solid;border-color:rgb(255, 255, 255);padding:4px;">
-										<strong>Openaccess</strong>
-									</a>
-									&nbsp;&nbsp;
-									<a href="https://github.com/sunset1995/PanoPlane360" style="border-width:2px;border-style:solid;border-color:rgb(255, 255, 255);padding:4px;">
-										<strong>Code</strong>
-									</a>
-								</div>
-							</figure><br>
-							<a href="http://albert100121.github.io/360SD-Net-Project-Page/">
-								<figure>
-								<img class="project" src="images/publication/ICRA2020/teaser.gif">
-								<div style="text-indent:0em; text-align:justify; font-weight: bold; margin-left: 23%" class="project_cap" >360SD-Net: 360<span>°</span> Stereo Depth Estimation with Learnable Cost Volume</div>
-								<div class="project_cap author" style="text-indent:0em; text-align:justify; margin-left: 23%"><a href="http://albert100121.github.io"><b>Ning-Hsu Wang</b></a>, Bolivar Solarte, <a href="https://sites.google.com/site/yihsuantsai/">Yi-Hsuan Tsai</a>, <a href="https://walonchiu.github.io/">Wei-Chen Chiu</a>, <a href="http://aliensunmin.github.io/">Min Sun</a></div>
-								<div class="project_cap submission" style="text-indent:0em; text-align:justify; margin-left: 23%"><a href="https://www.icra2020.org/">Internationl Conference on Robotics and Automation 2020 (ICRA 2020)</a></div>
-								<div class="project_cap submission" style="text-indent:0em; text-align:justify; margin-left: 23%">Short Version in <a href="http://iccv2019.thecvf.com/">ICCV19</a>: <a href="https://360pi.github.io/iccv19/index.html">360PI Workshop</a></div>
-								<br>
-								<div class="project_cap Coming" style="text-indent:0em; text-align:justify; margin-left: 23%">&nbsp;&nbsp;<a href="https://arxiv.org/abs/1911.04460" style="border-width:2px;border-style:solid;border-color:rgb(255, 255, 255);padding:4px;"><strong>Preprint</strong></a>&nbsp;&nbsp;<a href="https://github.com/albert100121/360SD-Net" style="border-width:2px;border-style:solid;border-color:rgb(255, 255, 255);padding:4px;"><strong>Code</strong></a>&nbsp;&nbsp;<a href="http://albert100121.github.io/360SD-Net-Project-Page/" style="border-width:2px;border-style:solid;border-color:rgb(255, 255, 255);padding:4px;"><strong>Project Page</strong></a></div>
-								</figure>
-							</a>
-						</article><br><br>
-						<article id="project">
-							<h2>Project Highlights</h2>
-							<figure>
-								<img class="project" src="images/publication/ICRA2020/project_teaser.gif">
-								<div style="font-weight: bold; margin-left: 20%" class="project_cap" ><a href="http://albert100121.github.io/360SD-Net-Project-Page/">360<span>°</span> Stereo Depth Estimation</a></div>
-									<ul style="padding-left: 5%; margin-left: 20%">
-										<li>Presented a new 360&deg; stereo dataset. </li>
-										<li>Implementation of deep neural network baselines as well as conventional methods.</li>
-										<li>Presented a deep nerual network with several novel modules for 360&deg; stereo depth estimation. </li>
-									</ul>
-							</figure>
-							<a href="https://drive.google.com/file/d/1X_toESVjf84dssZ2IPUk95i-9laDBoHp/view">
-								<figure>
-									<img class="project" src="images/project_img/Horror_Scene/3D_Horror_Scene.gif">
-									<div style="font-weight: bold; margin-left: 20%" class="project_cap" ><a href="https://drive.google.com/file/d/1X_toESVjf84dssZ2IPUk95i-9laDBoHp/view">3D Horror Scene: Horror Style Transfer Using 360<span>°</span> Views and 3D Reconstruction</a></div>
-									<ul style="padding-left: 5%; margin-left: 20%">
-										<li>Collected 5000 horror scene images with web crawling from YouTube horror game videos for style transfer training.</li>
-										<li>Implemented CycleGAN for style transfer and LayoutNet for 360◦ layout reconstruction.</li>
-										<li>Combined both model outputs (horror style 360◦ images and 3D room layout) to form a 3D model of horror rooms.</li>
-									</ul>
-								</figure>
-							</a>
-							<figure>
-								<img class="project" src="images/project_img/UAV/UAV_v2.gif">
-								<div style="font-weight: bold; margin-left: 20%" class="project_cap" >Unmanned Aircraft Remote Delivery System (Drone)</div>
-									<ul style="padding-left: 5%; margin-left: 20%">
-										<li>Designed and implemented the drone mechanism, motor control, delivery, and real-time surveillance system.</li>
-										<li>Demonstrated the UAV control for unseen location object delivery with a load of 300g.</li>
-										<br><br>
-									</ul>
-							</figure>
-							<figure>
-								<img class="project" src="images/project_img/KNR/KNR.jpg">
-								<div style="font-weight: bold; margin-left: 20%" class="project_cap" >KNR Robot Navigation and Object Detection in Maze</div>
-									<ul style="padding-left: 5%; margin-left: 20%">
-										<li>Designed and manufactured the KNR mechanism with multi-sensor (camera, ultrasonic and infrared sensor).</li>
-										<li>Programmed the navigation system, including motor control, multi-sensor feedback, and image processing in LabVIEW.</li>
-									</ul>
-							</figure>
-							<div style="font-weight: bold; margin-left: 20%" class="project_cap" >Validation of The Lambda Method for Integer Ambiguity Estimation </div>
-								<ul style="padding-left: 5%; margin-left: 20%">
-									<li>Implementation of The Lambda Method for Integer Ambiguity Estimation with Matlab simulation.</li>
-								</ul>
-						</article>
-						
-						
-					</div>
-					<footer id="footer">
-						<p> &copy; A.WangTW</p>
-					</footer>
-			</div>
-	</body>
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  <p align="center">
+    <pageheading>Ning-Hsu Wang</pageheading><br>
+    <b>email</b>: albert100121[at]gapp.nthu.edu.tw
+    <font id="email" style="display:inline;">
+      <noscript><i>Please enable Javascript to view</i></noscript>
+    </font>
+    <!-- <script>
+    emailScramble = new scrambledString(document.getElementById('email'),
+        'emailScramble', '1cm0asg17eccmilnrlah.oge@h',
+        [14, 8, 19, 13, 20, 7, 12, 15, 16, 6, 1, 24, 26, 21, 5, 11, 4, 22, 3, 9, 23, 25, 18, 10, 17, 2]);
+        // 'emailScramble', 'charlescheng0117@gmail.com',
+        // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]);
+    </script> -->
+  </p>
+
+  <tr>
+    <!-- <td width="32%" valign="top"><a href="images/yenchicheng.png"><img src="images/yenchicheng.png" width="100%" style="border-radius:15px"></a> -->
+    <td width="34%" valign="top"><a href="images/albertwang.jpg"><img src="images/albertwang.jpg" width="100%" style="border-radius:15px"></a>
+        <!-- <p align=center>
+            | <a href="https://drive.google.com/open?id=1W6Paq4gn2X3wAQIaqWiqqpDJgcy6noA5">CV</a> |
+            <a href="https://scholar.google.cl/citations?hl=en&pli=1&user=wvuEiWgAAAAJ">Google Scholar</a> |<br/>|
+            <a href="https://github.com/yccyenchicheng">Github</a> |
+            <a href="https://www.linkedin.com/in/yen-chi-cheng-464457b5/">LinkedIn</a> |
+        </p> -->
+        <p align=center>
+          | <a href="images/personal_info/Ning_Hsu_Wang_Resume_PhD_long.pdf">CV</a> |
+          <a href="https://scholar.google.com/citations?user=8kYY700AAAAJ&hl=zh-TW">Google Scholar</a> |
+          <a href="https://github.com/albert100121">Github</a> |
+          <br>
+          | <a href="http://www.linkedin.com/in/ning-hsu-albert-wang">LinkedIn</a> |
+          <a href="https://twitter.com/Albert_NH_Wang">Twitter</a> |
+      </p>
+    </td>
+
+    <td width="66%" valign="top" align="justify">
+        <p>
+          I am a Machine Learning Engineer at <a href="https://ailabs.tw">Taiwan AILabs</a> focusing on Computer Vision and Machine Learning.
+          I received my Master's degree in 
+          <a href="http://web.ee.nthu.edu.tw/bin/home.php?Lang=en">Electrical Engineering</a> 
+          from 
+          <a href="http://nthu-en.web.nthu.edu.tw/bin/home.php">National Tsing Hua Unviersity (NTHU)</a>
+          advised by Prof. 
+          <a href="http://aliensunmin.github.io/">Min Sun</a> and my Bachelor's degree in Mechanical Engineering from National Chiao Tung University.
+          During my graduate research, I was fortunated to collaborate with 
+          <a href="https://walonchiu.github.io/">Prof. Wei-Chen Chiu</a>
+          and
+          <a href="https://sites.google.com/site/yihsuantsai/">Dr. Yi-Hsuan Tsai</a> 
+          on 360<span>°</span> Stereo Depth Project, and 
+          <a href="https://htchen.github.io/">Prof. Hwann-Tzong Chen</a> 
+          on Planar Reconstruction.
+          During the last semester and the following year, I had a wonderful time working as a Computer Vision research intern at <a href="https://www.mediatek.tw/">MediaTek, Taiwan</a>, working on Depth Estimation, All-in-Focus Reconstruction, and Computational Photography.
+          <br>
+          <br>
+          My research interest lies in Deep Learning and its applications, especially focusing on 360<span>°</span> images, VR/AR application and Robotics Perceptions.<br>
+          In my free time, I enjoy listening to music, restaurant/cafe/bar hopping and badminton.
+          <br>
+          <br>
+          I'm actively looking for PhD positions focusing on Computer Vision / Machine Learning / Robotics for Fall 2022.
+          Please see my <a href="images/personal_info/Ning_Hsu_Wang_Resume_PhD_long.pdf">[CV]</a> for more details.
+        </p>
+
+        </td>
+  </tr>
+</table>
+
+
+<!-- =================== Experience =================== -->
+<table width="100%" align="center" style="margin-left:10px" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <th width="20%" valign="top" align="center">
+        <img src="images/logo/ailabs.png" alt="sym" width="60%"></a>
+        <p style="line-height:1.3; font-size:12pt">Taiwan AILabs<br>Machine Learning Engineer<br>Aug. 21 - Present</p>
+        </th>
+
+        <th width="20%" valign="top" align="center">
+        <img src="images/logo/mediatek.jpg" alt="sym" width="60%"></a>
+        <p style="line-height:1.3; font-size:12pt">MediaTek, Taiwan<br>Research Intern<br>Feb. 20 - Mar. 21</p>
+        </th>
+
+        <th width="20%" valign="top" align="center">
+        <img src="images/logo/nthu.png" alt="sym" width="60%"></a>
+        <p style="line-height:1.3; font-size:12pt">NTHU<br>M.Sc.<br>Feb. 2018 - Aug. 2020</p>
+        </th>
+
+        <th width="20%" valign="bottom" align="center">
+        <img src="images/logo/atos.png" alt="sym" width="60%"></a>
+        <p style="line-height:1.3; font-size:12pt">Atos<br>Onsite Engineer<br>Jul. 2017 - Aug. 2017</p>
+
+        <th width="20%" valign="top" align="center">
+        <img src="images/logo/nctu.png" alt="sym" width="60%"></a>
+        <p style="line-height:1.3; font-size:12pt">NCTU<br>B.Sc.<br>Sep. 2013 - Jun. 2017</p>
+        </th>
+
+        </th>
+    </tr>
+</table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="8">
+  <tr><td>
+    <sectionheading>&nbsp;&nbsp;News</sectionheading>
+    <ul>
+      <li> [07/2021] One paper accepted in <b>ICCV'21</b>.</li>
+      <li> [03/2021] One paper accepted in <b>CVPR'21 as oral paper</b>.</li>
+      <li> [02/2021] Finish my internship at MediaTek.</li>
+      <li> [10/2020] Finish my military training.</li>
+      <li> [08/2020] Receive my M.Sc. degree from National Tsing Hua University.</li>
+      <li> [07/2020] Selected as the honorary member of the <a href="http://www.phitauphi.org.tw/"><strong>Phi Tau Phi Scholastic Honor Society of the Republic of China</strong></a>.</li>
+      <li> [03/2021] Join Professor <a href="http://shubhtuls.github.io/">Shubham Tulsiani</a>'s group at CMU RI!</li>
+      <li> [02/2020] Start my research internship at <a href="https://www.mediatek.com">MediaTek</a> working with Dr. Yun-Lin Chang, Dr. Chia-Ping Chen and Senior Engineers Yu-Lun Liu, Ren Wang, and Yu-Hao Huang.</li>
+      <li> [01/2020] One paper accepted in <b>ICRA'20</b>.</li>
+      <li> [08/2019] One paper accepted in <b>ICCV'19 <a href="https://360pi.github.io/iccv19/index.html">360 Perception and Interaction Workshop</a></b>.</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+  <tr><td><sectionheading>&nbsp;&nbsp;Publications</sectionheading></td></tr>
+</table>
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+
+
+  <tr>
+    <td width="33%" valign="top" align="center">
+        <a href="#">
+          <img class="project" src="images/publication/ICCV2021/arch.jpg", width="300">
+        </a>
+    </td>
+
+    <td width="67%" valign="top">
+        <p>
+            <a href="#" id="AiFDepthNet">
+
+            <heading>Bridging Unsupervised and Supervised Depth from Focus via All-in-Focus Supervision</heading></a>
+            <br>
+            <a href="http://albert100121.github.io"><u><b>Ning-Hsu Wang</b></u></a>, 
+            <a href="https://www.linkedin.com/in/ren-wang-61b273160/?originalSubdomain=tw">Ren Wang</a>, 
+            <a href="http://www.cmlab.csie.ntu.edu.tw/~yulunliu/">Yu-Lun Liu</a>, 
+            <a href="https://www.linkedin.com/in/yu-hao-huang-72821060/?originalSubdomain=tw">Yu-Hao Huang</a>, 
+            <a href="https://scholar.google.com/citations?user=0O9rukQAAAAJ&hl=en">Yu-Lin Chang</a>, 
+            <a href="https://tw.linkedin.com/in/chia-ping-chen-81674078">Chia-Ping Chen</a>, 
+            <a href="https://corp.mediatek.com/investor-relations/corporate-governance/corporate-management">Kevin Jou</a>
+            <br>
+            ICCV 2021
+            <br>
+        </p>
+
+        <div class="paper" id="aifdepthnet">
+        <a href="https://albert100121.github.io/AiFDepthNet/">webpage</a> |
+        <a href="javascript:toggleblock('aifdepthnet_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('aifdepthnet')" class="togglebib">bibtex</a> |
+        <a href="https://arxiv.org/abs/2108.10843">arXiv</a> |
+        <a href="https://github.com/albert100121/AiFDepthNet/">code</a>
+
+        <p align="justify">
+            <i id="aifdepthnet_abs">
+              Depth estimation is a long-lasting yet important task in computer vision.
+              Most of the previous works try to estimate depth from input images and assume images are all-in-focus (AiF), which is less common in real-world applications. 
+              On the other hand, a few works take defocus blur into account and consider it as another cue for depth estimation. 
+              In this paper, we propose a method to estimate not only a depth map but an AiF image from a set of images with different focus positions (known as a focal stack). 
+              We design a shared architecture to exploit the relationship between depth and AiF estimation. 
+              As a result, the proposed method can be trained either supervisedly with ground truth depth, or unsupervisedly with AiF images as supervisory signals. 
+              We show in various experiments that our method outperforms the state-of-the-art methods both quantitatively and qualitatively, and also has higher efficiency in inference time.
+            </i>
+        </p>
+
+        <pre xml:space="preserve">
+          @inproceedings{Wang-ICCV-2021,
+            author    = {Wang, Ning-Hsu and Wang, Ren and Liu, Yu-Lun and Huang, Yu-Hao and Chang, Yu-Lin and Chen, Chia-Ping and Jou, Kevin}, 
+            title     = {Bridging Unsupervised and Supervised Depth from Focus via All-in-Focus Supervision}, 
+            booktitle = {International Conference on Computer Vision},
+            year      = {2021}
+          }
+        </pre>
+
+        </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="33%" valign="top" align="center">
+        <a href="#">
+        <img src="images/publication/CVPR2020/model.jpg" alt="sym" width="300" style="border-radius:15px">
+        </a>
+    </td>
+
+    <td width="67%" valign="top">
+        <p>
+            <a href="#" id="PanoPlane360">
+
+            <heading>Indoor Panorama Planar 3D Reconstruction via Divide and Conquer</heading></a>
+            <br>
+            <a href="https://sunset1995.github.io">Cheng Sun</a>, 
+            <a href="https://chiweihsiao.github.io">Chi-Wei Hsiao</a>, 
+            <a href="http://albert100121.github.io"><u><b>Ning-Hsu Wang</b></u></a>, 
+            <a href="http://aliensunmin.github.io/">Min Sun</a>, 
+            Hwann-Tzong Chen</div>
+            <br>
+            CVPR 2021 Oral
+        </p>
+
+        <div class="paper" id="panoplane360">
+        <!-- <a href="https://yccyenchicheng.github.io/InOut/">webpage </a> | -->
+        <a href="javascript:toggleblock('panoplane360_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('panoplane360')" class="togglebib">bibtex</a> |
+        <a href="https://arxiv.org/abs/2106.14166">arXiv</a> |
+        <a href="https://github.com/sunset1995/PanoPlane360">code</a>
+
+        <p align="justify">
+            <i id="panoplane360_abs">
+              Indoor panorama typically consists of human-made structures parallel or perpendicular to gravity. 
+              We leverage this phenomenon to approximate the scene in a 360-degree image with (H)orizontal-planes and (V)ertical-planes. 
+              To this end, we propose an effective divide-and-conquer strategy that divides pixels based on their plane orientation estimation; then, the succeeding instance segmentation module conquers the task of planes clustering more easily in each plane orientation group. 
+              Besides, parameters of V-planes depend on camera yaw rotation, but translation-invariant CNNs are less aware of the yaw change. 
+              We thus propose a yaw-invariant V-planar reparameterization for CNNs to learn. 
+              We create a benchmark for indoor panorama planar reconstruction by extending existing 360 depth datasets with ground truth H&V-planes (referred to as "PanoH&V" dataset) and adopt state-of-the-art planar reconstruction methods to predict H&V-planes as our baselines. 
+              Our method outperforms the baselines by a large margin on the proposed dataset.
+            </i>
+        </p>
+
+        <pre xml:space="preserve">
+        @inproceedings{SunHWSC21,
+          author    = {Cheng Sun and
+                        Chi{-}Wei Hsiao and
+                        Ning{-}Hsu Wang and
+                        Min Sun and
+                        Hwann{-}Tzong Chen},
+          title     = {Indoor Panorama Planar 3D Reconstruction via Divide and Conquer},
+          booktitle = {CVPR},
+          year      = {2021},
+        }
+        </pre>
+
+        </div>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td width="33%" valign="top" align="center">
+        <a href="#">
+        <img src="images/publication/ICRA2020/teaser.gif" alt="sym" width="300" style="border-radius:15px">
+        </a>
+    </td>
+
+    <td width="67%" valign="top">
+        <p>
+            <a href="#" id="360SD-Net">
+
+            <heading>360SD-Net: 360<span>°</span> Stereo Depth Estimation with Learnable Cost Volume</heading></a>
+            <br>
+            <a href="http://albert100121.github.io"><u><b>Ning-Hsu Wang</b></u></a>, 
+            Bolivar Solarte, 
+            <a href="https://sites.google.com/site/yihsuantsai/">Yi-Hsuan Tsai</a>, 
+            <a href="https://walonchiu.github.io/">Wei-Chen Chiu</a>, 
+            <a href="http://aliensunmin.github.io/">Min Sun</a></div>
+            <br>
+            ICRA 2020
+        </p>
+
+        <div class="paper" id="360sdnet">
+        <a href="http://albert100121.github.io/360SD-Net-Project-Page/">webpage </a> |
+        <a href="javascript:toggleblock('360sdnet_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('360sdnet')" class="togglebib">bibtex</a> |
+        <a href="https://arxiv.org/abs/1911.04460">arXiv</a> |
+        <a href="https://github.com/albert100121/360SD-Net">code</a>
+
+        <p align="justify">
+            <i id="360sdnet_abs">
+              Recently, end-to-end trainable deep neural networks have significantly improved stereo depth estimation of perspective images. 
+              However, 360° images captureed under equirectangular projection cannot benefit from directly adopting existing methods due to distortion introduced (i.e., lines in 3D arenot projected into lines in 2D). 
+              To tackle this issue, we present a novel architecture specifically designed for spherical disparity using the setting of top-bottom 360° camera pairs. 
+              Moreover, we propose to mitigate the distortion issue by: 1) an additional input branch capturing the position and relation of each pixel in the spherical coordinate, and 2) a cost volume built upon a learnable shifting filter. 
+              Due to the lack of 360° stereo data, we collect two 360° stereo datasets from Matterport3D and Stanford3D for training and evaluation. 
+              Extensive experiments and ablation study are provided to validate our method against existing algorithms. 
+              Finally, we show promising results on real-world environments capturing images with two consumer-level cameras
+            </i>
+        </p>
+
+        <pre xml:space="preserve">
+          @inproceedings{wang20icra,
+            title = {360SD-Net: 360$^{\circ} Stereo Depth Estimation with Learnable Cost Volume },
+            author = {Ning-Hsu Wang and Bolivar Solarte andYi-Hsuan Tsai and Wei-Chen Chiu and Min Sun},
+            booktitle = {International Conference on Robotics and Automation (ICRA)},
+            year = {2020}
+            }
+        </pre>
+
+        </div>
+    </td>
+  </tr>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+        <tr><td><sectionheading>&nbsp;&nbsp;Projects</sectionheading></td></tr>
+</table>
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+
+    <tr>
+        <td width="50%" valign="top" align="center">
+            <a href="#">
+            <img src="images/publication/ICRA2020/project_teaser.gif" alt="sym" width="350" style="border-radius:15px"></a>
+        </td>
+
+        <td width="50%" valign="top">
+            <p>
+                <a href="http://albert100121.github.io/360SD-Net-Project-Page/" id="360sdnet_project">
+                <heading>360<span>°</span> Stereo Depth Estimation</heading></a>
+                <br>
+                <li>Presented a new 360&deg; stereo dataset. </li>
+                <li>Implementation of deep neural network baselines as well as conventional methods.</li>
+                <li>Presented a deep nerual network with several novel modules for 360&deg; stereo depth estimation. </li>
+                <br>
+                | <a href="https://github.com/albert100121/360SD-Net">code</a> |
+            </p>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%" valign="top" align="center">
+            <a href="#">
+            <img src="images/project_img/Horror_Scene/3D_Horror_Scene.gif" alt="sym" width="350"  style="border-radius:15px"></a>
+        </td>
+
+        <td width="50%" valign="top">
+            <p>
+                <a href="https://drive.google.com/file/d/1X_toESVjf84dssZ2IPUk95i-9laDBoHp/view" id="3DHORRORSCENE">
+                <heading>3D Horror Scene: Horror Style Transfer Using 360<span>°</span> Views and 3D Reconstruction</heading></a>
+                <br>
+                  <li>Collected 5000 horror scene images with web crawling from YouTube horror game videos for style transfer training.</li>
+                  <li>Implemented CycleGAN for style transfer and LayoutNet for 360◦ layout reconstruction.</li>
+                  <li>Combined both model outputs (horror style 360◦ images and 3D room layout) to form a 3D model of horror rooms.</li>
+                <br>
+            </p>
+    
+        </td>
+    </tr>
+
+    <tr>
+      <td width="50%" valign="top" align="center">
+          <a href="#">
+          <img src="images/project_img/UAV/UAV_v2.gif" alt="sym" width="350" style="border-radius:15px"></a>
+      </td>
+
+      <td width="50%" valign="top">
+          <p>
+              <a href="#" id="UAV">
+              <heading>Unmanned Aircraft Remote Delivery System (Drone)</heading></a>
+              <br>
+                <li>Designed and implemented the drone mechanism, motor control, delivery, and real-time surveillance system.</li>
+                <li>Demonstrated the UAV control for unseen location object delivery with a load of 300g.</li>
+              <br>
+          </p>
+  
+      </td>
+    </tr>
+
+    <tr>
+      <td width="50%" valign="top" align="center">
+          <a href="#">
+          <img src="images/project_img/KNR/KNR.jpg" alt="sym" width="350" style="border-radius:15px"></a>
+      </td>
+
+      <td width="50%" valign="top">
+          <p>
+              <a href="#" id="UAV">
+              <heading>KNR Robot Navigation and Object Detection in Maze</heading></a>
+              <br>
+                <li>Designed and manufactured the KNR mechanism with multi-sensor (camera, ultrasonic and infrared sensor).</li>
+                <li>Programmed the navigation system, including motor control, multi-sensor feedback, and image processing in LabVIEW.</li>
+              <br>
+          </p>
+  
+      </td>
+    </tr>
+
+    <tr>
+      <td width="50%" valign="top" align="center">
+          <a href="#">
+          <img src="images/project_img/Lambda/lambda.png" alt="sym" width="350" style="border-radius:15px"></a>
+      </td>
+
+      <td width="50%" valign="top">
+          <p>
+              <a href="#" id="UAV">
+              <heading>Validation of The Lambda Method for Integer Ambiguity Estimation </heading></a>
+              <br>
+                <li>Implementation of The Lambda Method for Integer Ambiguity Estimation with Matlab simulation.</li>
+              <br>
+          </p>
+  
+      </td>
+    </tr>
+
+<!-- <table width="100%" align="center" border="0" cellpadding="10">
+  <tr>
+    <td>
+      <sectionheading>&nbsp;&nbsp;Professional Activity</sectionheading>
+        <ul>
+          <li> Reviewer: ICML 2020, CVPR 2021, ICCV 2021, NeurIPS 2021, AAAI 2022</li>
+        </ul>
+    </td>
+  </tr>
+</table> -->
+
+<table width="100%" align="center" border="0" cellpadding="10">
+  <tr>
+    <td>
+      <sectionheading>&nbsp;&nbsp;Awards</sectionheading>
+        <ul>
+          <li> Honorary Member of The Phi Tau Phi Scholastic Honor Society of the Republic of China </li>
+          <li> Appier Conference Scholarship for Top Researches on Artificial Intelligence </li>
+          <li> Arctic Code Vault Contributor (GitHub) </li>
+        </ul>
+    </td>
+  </tr>
+</table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+    <tr><td><br><p align="center"><font size="2">
+    Template from this <a href="https://jonbarron.info/">awesome website</a>.
+    </font></p></td></tr>
+    
+</table>
+  </td> </tr>
+</table>
+
+<script xml:space="preserve" language="JavaScript">
+hideallbibs();
+</script>
+
+<script xml:space="preserve" language="JavaScript">
+  hideblock('aifdepthnet_abs');
+</script>
+
+<script xml:space="preserve" language="JavaScript">
+  hideblock('panoplane360_abs');
+</script>
+
+<script xml:space="preserve" language="JavaScript">
+  hideblock('360sdnet_abs');
+</script>
+
+</script>
+</body>
+
 </html>
