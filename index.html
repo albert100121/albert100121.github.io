@@ -107,7 +107,7 @@
 
     <td width="66%" valign="top" align="justify">
         <p>
-          I am a Machine Learning Engineer at <a href="https://ailabs.tw">Taiwan AILabs</a>, focused on advancing 360 image technologies for AR/VR and the Metaverse.
+          I am an independent researcher working on interesting ML topics. Before that, I was a Machine Learning Engineer at <a href="https://ailabs.tw">Taiwan AILabs</a>, focused on advancing 360 image technologies for AR/VR and the Metaverse.
           Currently, my work involves enhancing Scene Generation through 360 Image generation and super resolution. 
           Prior to this, I led projects in light source estimation and shadow casting for object insertion.
           <!-- I am a Machine Learning Engineer at <a href="https://ailabs.tw">Taiwan AILabs</a>, focusing on Computer Vision and Machine Learning. -->
@@ -201,7 +201,62 @@
 </table>
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
-
+    <!-- Depth Anywhere -->
+    <tr>
+      <td width="33%" valign="top" align="center">
+          <a href="https://albert100121.github.io/Depth-Anywhere/">
+            <img class="project" src="images/publication/Depth-Anywhere/teaser_v7.jpg", width="300">
+          </a>
+      </td>
+  
+      <td width="67%" valign="top">
+          <p>
+              <a href="https://albert100121.github.io/Depth-Anywhere/" id="Depth-Anywhere">
+  
+              <heading>Depth Anywhere: Enhancing 360 Monocular Depth Estimation via Perspective Distillation and Unlabeled Data Augmentation</heading></a>
+              <br>
+              <a href="http://albert100121.github.io"><u><b>Ning-Hsu Wang</b></u></a>, 
+              <a href="http://www.cmlab.csie.ntu.edu.tw/~yulunliu/">Yu-Lun Liu</a>, 
+              <br>
+              Under Submission
+              <br>
+          </p>
+  
+          <div class="paper" id="depthanywhere">
+          <a href="https://albert100121.github.io/Depth-Anywhere/">webpage</a> |
+          <a href="javascript:toggleblock('depthanywhere_abs')">abstract</a> |
+          <a shape="rect" href="javascript:togglebib('depthanywhere')" class="togglebib">bibtex</a> |
+          <a href="http://arxiv.org/abs/2406.12849">arXiv</a> |
+          <a href="https://huggingface.co/spaces/Albert-NHWang/Depth-Anywhere-App">huggingface demo</a> | 
+          <a href="">code(tbd)</a>
+          <p align="justify">
+              <i id="depthanywhere_abs">
+                Accurately estimating depth in 360-degree imagery is crucial for virtual reality, autonomous navigation, and immersive media applications. 
+                Existing depth estimation methods designed for perspective-view imagery fail when applied to 360-degree images due to different camera projections and distortions, 
+                whereas 360-degree methods perform inferior due to the lack of labeled data pairs. 
+                We propose a new depth estimation framework that utilizes unlabeled 360-degree data effectively. 
+                Our approach uses state-of-the-art perspective depth estimation models as teacher models to generate pseudo labels through a six-face cube projection technique, 
+                enabling efficient labeling of depth in 360-degree images. 
+                This method leverages the increasing availability of large datasets. 
+                Our approach includes two main stages: offline mask generation for invalid regions and an online semi-supervised joint training regime. 
+                We tested our approach on benchmark datasets such as Matterport3D and Stanford2D3D, 
+                showing significant improvements in depth estimation accuracy, particularly in zero-shot scenarios. 
+                Our proposed training pipeline can enhance any 360 monocular depth estimator and demonstrates effective knowledge transfer across different camera projections and data types.
+              </i>
+          </p>
+  
+          <pre xml:space="preserve">
+            @article{wang2024depthanywhere,
+                title={Depth Anywhere: Enhancing 360 Monocular Depth Estimation via Perspective Distillation and Unlabeled Data Augmentation},
+                author={Ning-Hsu Wang and Yu-Lun Liu},
+                journal={arXiv},
+                year={2024}
+            }
+          </pre>
+          </div>
+      </td>
+    </tr>
+    <!-- AiFDepthNet -->
     <tr>
     <td width="33%" valign="top" align="center">
         <a href="https://albert100121.github.io/AiFDepthNet/">
